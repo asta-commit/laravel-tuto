@@ -4,15 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>hello city</title>
+        <title>About Us | hello city</title>
 
        
     </head>
     <body >
-        <h1>Hello from Québec</h1>
+        <p>Built with &hearts;by Asta.</p>
 
-        <p>It's currently {{ date('h:i A')}}.</p>
-
+        <p><a href="/">Revenir vers la page d'accueil</a></p>
         <footer> 
          <p>&copy; Copyright {{date('Y')}} &middot;<a href ="/about-us">About us</a></p>   
     </footer>
