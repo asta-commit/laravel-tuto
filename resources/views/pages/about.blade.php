@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title','About us | Hello City')
+@section('title','About us |' . confiV('project.variable'))
 @section('content')
         <p>Built with &hearts;by Asta.</p>
 
