@@ -7,7 +7,7 @@
 
 @section('content')
 
-<img src="/images/imagelaravel.jpg" alt="imagelaravel">
+<img src="{{ asset('/images/imagelaravel.jpg')}}" alt="imagelaravel">
 
 <p>Built with &hearts;by Asta.</p>
 
