@@ -6,8 +6,11 @@
     
 
 @section('content')
-        <p>Built with &hearts;by Asta.</p>
 
-        <p><a href="{{ route('home') }}">Revenir vers la page d'accueil</a></p>
+<img src="/images/imagelaravel.jpg" alt="imagelaravel">
+
+<p>Built with &hearts;by Asta.</p>
+
+<p><a href="{{ route('home') }}">Revenir vers la page d'accueil</a></p>
       
 @endsection

@@ -4,7 +4,10 @@
 
 
 @section('content')
-        <h1>Hello from Québec</h1>
+<img src="/images/laravelsn1.png" alt="laravelsn">
+       
+
+<h1>Hello from Québec</h1>
 
         <p>It's currently {{ date('h:i A')}}.</p>
 
