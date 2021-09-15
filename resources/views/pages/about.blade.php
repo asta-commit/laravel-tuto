@@ -7,10 +7,14 @@
 
 @section('content')
 
-<img src="{{ asset('/images/imagelaravel.jpg')}}" alt="imagelaravel">
+<img src="{{ asset('/images/imagelaravel.jpg')}}" alt="imagelaravel" class="my-12 rounded-full ">
 
-<p>Built with &hearts;by Asta.</p>
+<h2 class="mb-5 text-gray-700">
+    Built with <span class="text-pink-500">&hearts;</span>by Asta.
+</h2>
 
-<p><a href="{{ route('home') }}">Revenir vers la page d'accueil</a></p>
+<p>
+    <a href="{{ route('home') }}" class="text-indigo-500 hover:text-indigo-600 underline">Revenir vers la page d'accueil</a>
+</p>
       
 @endsection
