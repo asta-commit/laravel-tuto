@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' =>  config('app.name') . '- Help'])
+@extends('layouts.app', ['title' =>   ' Help'])
 
 
 
